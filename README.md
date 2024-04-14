@@ -144,7 +144,7 @@ However, all there are no wasted components. Everything created served a purpose
 
 Images of myself which are used for this portfolio, are considered placeholder images and will not be used when this portfolio is deployed online and visable by future employers (I am planning to professional headshots which would be more suitable for this type of project).
 
-Images of both social media sites and coding languages displayed were sourced from IconScout, which allows for free downloads of common enterprise icons.
+Images of both social media sites and coding languages displayed were sourced from IconScout, which allows for free downloads of common enterprise icons
 
 [Link to Icon Scout](https://iconscout.com)
 
