@@ -15,7 +15,7 @@ This portfolio was completed while relying heavily on CSS Flexbox as both a way 
 
 I completed this assignment with the mindset of a junior web developer who is aiming to utilise this portfolio to reach perspective employers in the industry with the hopes of gaining employment as a full-stack web developer in a small to medium software development company. As such, the target audience is hiring managers in those environments.
 
-**This project features  a total of nine HTML documents that all link together and which have all been designed with a mobile first design to provide a seemless user experience (media quries were set using the Google Chrome inspect feature and focused on making sure the portfolio was responsive to all device types listed in that feature).**
+**This project features  a total of nine HTML documents that all link together and which have all been designed with a mobile first design to provide a seemless user experience (media queries were set using the Google Chrome inspect feature and focused on making sure the portfolio was responsive to all device types listed in that feature).**
 
 It is simple in its design, and this is done with the purpose of creating a portfolio that focuses on providing key information to perspective employers in a way that does not take away from the information that is being conveyed.
 
@@ -37,21 +37,21 @@ On top of the previous mentioned main navigation bar throughout the portfolio, a
 
 The names of the blog sample pages were opted to fill out this navigation bar as, in my mind, the titles of these blog posts were interesting and were more likely to draw in perspective readers as opposed to solely using date stamps.
 
-However, unlike the main navigation bar, I opted to remove this navigation bar for mobile users as it seemed to both takeway from precious screen real estate and it was extremely awkward to inplement.
+However, unlike the main navigation bar, I opted to remove this navigation bar for mobile users as it seemed to both takeway from precious screen real estate and it was extremely awkward to implement.
 
 ![Image of blog post navigation bar](/docs/blogPostsNav.png)
 
 ## Design Choices and Wireframes of the portfolio
 
-### Aesthic of the portfolio
+### Aesthetic of the portfolio
 
-The aesthic of the portfolio is simple, there are no crazy animations that make images fly or in or scale to crazy sizes.
+The aesthetic of the portfolio is simple, there are no crazy animations that make images fly or in or scale to crazy sizes.
 
 Everything is displayed where it should be while utilising a futuristic colour pallete that allows key information to easily grab the attention of readers.
 
 Most if not all information are displayed in what I call "tiles", which layout information nicely and ensure everything has enough room to actually work.
 
-The combination of dark blue backgrounds for these tiles in combination with bright aqua for key headings, in my mind, achieves this simple/futuristic aesthic.
+The combination of dark blue backgrounds for these tiles in combination with bright aqua for key headings, in my mind, achieves this simple/futuristic aesthetic.
 
 The choice of providing shadow border backgrounds for all images adds to that futristic feel of the portfolio and provides importance to the images as it is more likely to draw in the users attention.
 
@@ -79,9 +79,9 @@ In an effort to avoid cluttering this document, I have decided to include a samp
 
 **All of the created wireframes can be found within the images folder of the project**
 
-As seen in the ***About Me*** wireframes, it was always the goal to create this portfolio with a simplistic design and while utilising CSS flexbox heavily. This was done in an effort not only nail down the basics learnt throughout the beginning stages of the diploma, but also to make the portfolio easy not only for perspective employers to navigate but also any potential users that may come across this piece of work. The heavy reliance on flexbox is quite prevenlent throughout the portfolio. When viewing the source code of the portfolio, most if not all the components included to make up the portfolio are wrapped in a container which utilising ```display: flexbox;```.
+As seen in the ***About Me*** wireframes, it was always the goal to create this portfolio with a simplistic design and while utilising CSS flexbox heavily. This was done in an effort to not only nail down the basics learnt throughout the beginning stages of the diploma, but also to make the portfolio easy not only for perspective employers to navigate but also any potential users that may come across this piece of work. The heavy reliance on flexbox is quite prevalent throughout the portfolio. When viewing the source code of the portfolio, most if not all the components included to make up the portfolio are wrapped in a container utilising ```display: flexbox;```.
 
-In terms of the design for mobile users, a barebones approach was utilised. This was to ensure that amount of scrolls utilised to by users to view all relevent information was minimal but also to ensure that the minimal screen realestate was used to convey information that was of outmost importance. This came at the sacrafice of various images that are present in both the tablet and desktop designs but not in the mobile designs.
+In terms of the design for mobile users, a barebones approach was utilised. This was to ensure that the amount of scrolls utilised  by users to view all relevent information was minimal but also to ensure that the minimal screen realestate was used to convey information that was of outmost importance. This came at the sacrafice of various images that are present in both the tablet and desktop designs but not in the mobile designs.
 
 The tablet and desktop implementations are quite similar in scope as utiising a combination of flexbox and relative measurement units, allowed components to be scaled acurately depening on the screen size of the device being used to view the portfolio.
 
@@ -107,16 +107,16 @@ The acruracy of the final portfolio when compared to the wireframe mock-ups can 
 
 In order to complete a well-rounded portfolio, many components were created with the aim of displaying vital information and providing seemless user experience. As you will see below, many components were reused across the portfolio in an effort to achieve ease of user experience.
 
-However, all there are no wasted components. Everything created served a purpose of engaging users and werent placed in pages where the theme of that page did not match the aim of the component.
+However, there are no wasted components. Everything created served a purpose of engaging users and were not placed in pages where the theme of that page did not match the aim of the component.
 
-### Reused Commponents
+### Reused Components
 
 **These components were reused across multiple pages of the portfolio.**
 
 * **Navbar** - Designed to provide for easy navigation around the portfolio. **Also includes a resume link which will automatically download a copy of my resume to the users downloads folder on their device for ease of access.**
-* **Blog Post Navbar** - Designed to provide for easy navigation around the sample blog posts which are child pages of the blogPost.html page in the hopes of engaging the user to read further blog posts without them having click back to blog posts page. One click is more likely to capitivate users to continue rather than having to complete two clicks.
+* **Blog Post Navbar** - Designed to provide for easy navigation around the sample blog posts which are child pages of the blogPost.html page in the hopes of engaging the user to read further blog posts without them having click back to the blog posts page. One click is more likely to capitivate users to continue rather than having to complete two clicks.
 * **Contact Me** - Provided easy access to information which would be useful to contact me if any potential employers were interested in doing so. Includes both a phone number and email which I can be contacted on.
-* **Footer** - A footer which allows for easy access to social media outlets which serve a profesional purpose and appropriate for the target auience including; Github, LinkedIn and Instagram.
+* **Footer** - A footer which allows for easy access to social media outlets which serve a professional purpose and appropriate for the target auience including; Github, LinkedIn and Instagram.
 
 ![Image of Social Media Components - Footer](/docs/socialMediaLinks.png)
 
@@ -126,7 +126,7 @@ However, all there are no wasted components. Everything created served a purpose
 
 ### About Me Page Components
 
-* **Hero Container** - Allowed for an introductory statement regarding the page as well as an image of myself, engagement with audience as it fits the overall aesthic of the page created.
+* **Hero Container** - Allowed for an introductory statement regarding the page as well as an image of myself, engagement with audience as it fits the overall aesthetic of the page created.
 * **My Skills** - Utilised to display information regarding any hard-skills, learnt throughout my time at Coder Academy and in my own time  skills  are of relevence to full-stack web development. Also utilised to display any soft-skills which may be of relevence. It's simplicity is leaned upon as it is a short snapshot of my skills. All skills would be of great importance to perspective employers.
 * **My Interests** - Utilised to display information regarding my interests so any perpective employer can connect with me on a personal level. Created to display how I would fit culturally in any work environment. Simple in its design, however, its simplicity will allow for ease of access to users to gain a better understanding of who I am as a person.
 * **My Journey Container** - Created to display what has lead me to pursue a career in web development and my past experiences in the workforce. Again, working on the previosly used components, will allow any perspective employer who views this portfolio to build a wholistic picture of who I am as a person and what I hope to achieve in this industry. Smaller screens will not display images, however, users utilising tablets or desktops will see images that correspond to each stage of my journey.
@@ -137,15 +137,15 @@ However, all there are no wasted components. Everything created served a purpose
 
 ### Blog Post Components
 
-* **Blog List** - This component displays a list of links which take the user to the corresponding sample post. There are five in total and are labelled in with both the blog title and date published. On smaller screens, images will fill the background of each of the links containers. On larger screens, these background images will no longer appear and instead be located adjacent to the blog links container. This has been created utilising nested ```<div>``` tags within the ```<HTML>``` page. The use of images along with the links in this style will engage the user to be intrigued about the contents of the blog post and hopefully be motivated to read further.
+* **Blog List** - This component displays a list of links which take the user to the corresponding sample post. There are five in total and they are labelled in with both the blog title and date published. On smaller screens, images will fill the background of each of the links containers. On larger screens, these background images will no longer appear and instead be located adjacent to the blog links container. This has been created utilising nested ```<div>``` tags within the ```<HTML>``` page. The use of images along with the links in this style will engage the user to be intrigued about the contents of the blog post and hopefully be motivated to read further.
 
 ### Sample Blog Post Components
 
-* **Published Blog Components** - A component to hold both an image relevent to and published blog material. Lorem text has been utilised as placeholder text. Styling is again simple however, display all necessary information to engage the user.
+* **Published Blog Components** - A component to hold both an image and published blog material. Lorem text has been utilised as placeholder text. Styling is again simple, however will display all necessary information to engage the user.
 
 ## Sourcing of Images and Materials
 
-Images of myself which are used for this portfolio, are considered placeholder images and will not be used when this portfolio is deployed online and visable by future employers (I am planning to professional headshots which would be more suitable for this type of project).
+Images of myself which are used for this portfolio, are considered placeholder images and will not be used when this portfolio is deployed online and visable by future employers (I am planning to have professional headshots which would be more suitable for this type of project).
 
 Images of both social media sites and coding languages displayed were sourced from IconScout, which allows for free downloads of common enterprise icons
 
