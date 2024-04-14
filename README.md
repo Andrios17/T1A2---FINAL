@@ -1,6 +1,9 @@
 # T1A2 - PORTFOLIO - ALEXANDER ANDRIOPOULOS
 
-[Link to Github Repository](https://github.com/Andrios17/t1a2Portfolio)
+[Link to Original Github Repository](https://github.com/Andrios17/t1a2Portfolio) - This was my original repository. I had to create a new repository due to an error with my folder creations on my local device. This is where a histroy of my commits and file changes can be viewed for the source code.
+
+[Link to Final Github Repository](https://github.com/Andrios17/T1A2---Final) - This is the current repository.
+
 
 ## Description
 
