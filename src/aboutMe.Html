@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio - About Me</title>
+        <link rel="icon" type="image/png" href ="/docs/favicon-32x32.png">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--Nav Bar Component: Made entirely of text content-->
+        <nav class="navWrapper">
+            <h1 id = "name">Alexander Andriopoulos</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutMe.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blogPosts.html">Blog Posts</a></li>
+                <li><a href="Alexander Andriopoulos Resume 2022.pdf" download="Alexander Andriopoulos Resume">Resume</a></li>
+            </ul>
+        </nav>
+        <!--Hero Component: Made of both text and graphical content-->
+        <header class="aboutMeHeader">
+            <section class="aboutMeSection">
+                <img src = "/docs/me.jpeg" alt="pic of me">
+                <h1>LEARN MORE ABOUT ME AND HOW TO CONTACT ME FOR FUTURE OPPORTUNITIES</h1>
+                <a href="Alexander Andriopoulos Resume 2022.pdf" download="Alexander Andriopoulos Resume">DOWNLOAD MY RESUME</a>
+            </section>
+        </header>
+        <main>
+            <!-- My Skills Component: Made of both text and graphical content-->
+            <section class = "mySkillsContainer">
+                <div class = "mySkills">
+                    <h1>MY SKILLS</h1>
+                    <p>Combining the various soft skills developed throughout my prior education and work experience
+                        with the hard skills developed throughout my time at Coder Academy, I am a well rounded individual
+                        who will not only produce high quality work which has been completed with high attention to detail,
+                        but will also be an asset to any work environment I am placed in. I am highly proficient in both HTML and CSS,
+                        and will be delving deeper into back-end languages to become a well rounded developer!</p>
+                </div>
+                <div class = "languages">
+                    <img src="/docs/html.png" alt="Image of HTML">
+                    <img src="/docs/css.png" alt="Image of CSS">
+                    <img src="/docs/javascript.png" alt="Image of JavaScript">
+                    <img src="/docs/python.png" alt="Image of Python">
+                </div>
+                <!-- My Interests Component: Made of text content-->
+                <div class = "myInterests">
+                    <h1>MY INTERESTS</h1>
+                    <p>When I am not honing my development skills you can catch me 
+                        either watching the NBA or playing my favourite video game (currently
+                         Red Dead Redemption 2 ofc). I do also enjoy the hardware side of tech 
+                         as I regularly build my own gaming PC's!
+                    </p>
+                </div>
+            </section>
+            <!-- My Journey Container: Made of both text and graphical content. Will display differently depending on screen-size
+             images will not display on mobile devices, however they will on wider screens. Multiple nested flexbox containers to 
+            achieve this effect-->
+            <section class="aboutMeContainer">
+                <h1 id = "journeyHeader">MY JOURNEY TO WEB DEVELOPMENT</h1>
+                <section class="wideScreen">
+                    <section class="thePast">
+                        <h1>THE PAST</h1>
+                        <p>From learning latin to use in the courtroom, to using latin as placeholder
+                            text in my project designs, my career path has taken many twists and turns. 
+                            been working in the law industry for the past 5 years where I was a paralegal in a premier commerical law firm in Sydney.
+                            However, I have finally made the plunge to transition into an indsutry I have always had a desire to work in. Having this prior experience
+                            will allow me to bring my highly developed soft skills of superior attention to detail, people skills,
+                            and problem solving to somethong more my speed!
+                        </p>
+                    </section>
+                    <section class="aboutMeImages">
+                        <img id = "law" src = "/docs/courtRoom.jpeg" alt="Image of Courtroom">
+                    </section>
+                </section>
+                <section class="wideScreen">
+                    <section class="aboutMeImages">
+                        <img id = "coderAcademy" src = "/docs/coderAcademy.jpeg" alt="Coder Academy Logo">
+                    </section>
+                    <section class="thePresent">
+                        <h1>THE PRESENT</h1>
+                        <p>Earlier this year, I began my studies in a Higher Education Diploma at Coder Academy and I couldnt be more 
+                            excited! I have begun to develop superior skills in front-end markup languages such as HTML5 and CSS.
+                            However, more importantly, my mindset has altered to a stage where I am able to start thinking like a web developer. Although
+                            my passion for tech has always been there (I built my first PC at the age of 12!), it has fostered into a huge part
+                            of my life! p.s I still do save time to watch my beloved Knicks 
+                        </p>
+                    </section>
+                </section>
+                <section class="wideScreen">
+                    <section class="theFuture">
+                        <h1>THE FUTURE</h1>
+                        <p>I have undertaken this journey to work as a full-stack developer who has a passion for 
+                            user-design and user-exprience. The process of building something from scratch and following
+                            its development from the start to the end has always excited me. Contributing to meaningful
+                            projects that are a joy for the user to interact with is my ultimate goal. 
+                        </p>
+                    </section>
+                    <section class="aboutMeImages">
+                        <img id = "fullStack" src = "/docs/fullStack.png" alt="full-stack engineer image">
+                    </section>
+                </section>
+            </section>
+            <!-- Contact Me Component: Made of up of entirely text component-->
+            <section class = "contactMeWrapper">
+                <h1 id = "contactHeader">CONTACT ME</h1>
+                <div class = "contactMe">
+                    <h1>I AM CURRENTLY OPEN TO ANY WORK OPPORTUNITIES</h1>
+                    <h4>EMAIL: alexander.andriopoulos@gmail.com</h4>
+                    <h4 id = "phoneNumber">NUMBER: 0412345678</h4>
+                </div>
+            </section>
+        </main>
+        <!--Footer Container: Made of both text and graphical content-->
+        <footer class = "footerWrapper">
+            <h3 >Keep up to date with me!</h3>
+            <div class="socials">
+                <a href = "https://github.com/Andrios17" targert = "_blank"><img src = "/docs/github.png" alt="Githib Logo"></a>
+                <a href = "https://www.linkedin.com/in/alexander-a-2547ba2b6/" targert = "_blank"><img src = "/docs/linkedin.png" alt="Linkedin Logo"></a>
+                <a href = "https://www.instagram.com/a.andrios/?hl=en" targert = "_blank"><img src = "/docs/instagram.png" alt="Instagram Logo"></a>
+            </div>
+        </footer>
+    </body>
+</html>

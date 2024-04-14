@@ -1,0 +1,955 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    background-color: hsl(216, 50%, 16%);
+}
+
+/* Styling for Nav Bar Component, is used for all pages within the portfolio */
+.navWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: hsl(217, 54%, 11%, 50%);
+    color: hsl(178, 100%, 50%);
+    width: 100vw;
+    height: 10vh;
+    font-family: "Chakra Petch", sans-serif;
+    flex-wrap: nowrap;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+}
+
+/* Styling for Nav Bar Component, is used for all pages within the portfolio */
+#name {
+    margin-left: 7px;
+    margin-bottom: 2px;
+}
+
+/* Styling for Nav Bar Component, is used for all pages within the portfolio */
+.navWrapper ul li {
+    display: inline-block;
+    padding: 10px;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+/* Styling for Nav Bar Component, targets the resume link, styled to stand out to the user*/
+.navWrapper ul li:nth-of-type(5) {
+    border: 2px solid aqua;
+    margin-right: 10px;
+}
+
+/* Styling for Nav Bar Component, only affected when user hovers over content */
+.navWrapper ul li:hover {
+    transform: scale(1.2);
+    
+}
+
+/* Styling for Nav Bar Component, only affected when user hovers over content */
+.navWrapper ul li a:hover {
+    cursor: pointer;
+    color: white;
+}
+
+
+/*Styling for Nav Bar Component, targets the text of links */
+.navWrapper ul li a {
+    text-decoration: none;
+    font-size: 1em;
+    color: hsl(178, 100%, 50%);
+}
+
+/* Styling for Hero Component on home page */
+.heroWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 80vh;
+    background-color: hsl(216, 50%, 16%);
+}
+
+/* Styling for Hero Component on home page */
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 80vh;
+}
+
+/* Targets the image in the Hero Component on home page, will not display on mobile devices */
+.profileImage {
+    display:none;
+}
+
+/* Targets the image in the Hero Component on home page */
+#profilePic{
+    position: relative;
+    border-radius: 50%;
+    max-width: 50%;
+    max-height: 50%;
+    top: -5.6%;
+    border: solid 5px aqua;
+    filter: drop-shadow( -10px -7px 9px aqua);
+}
+
+/* Targets the text in the Hero Component on home page */
+.intro h1 {
+    position: relative;
+    top: -10%;
+    color: #00ffff;   
+}
+
+/* Targets the image in the Hero Component on home page */
+.intro h3 {
+    position: relative;
+    top: -5%;
+    color: white; 
+    font-weight: 300; 
+    margin-top: 10px;
+    margin-bottom: 14px; 
+}
+
+/* Targets the image in the Hero Component on home page */
+.intro h3:nth-of-type(2) {
+    color: aqua; 
+    font-weight: bold;
+}
+
+/* Styling for Footer Component*/
+.footerWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: hsl(217, 54%, 11%);
+    width: 100vw;
+    height: 10vh;
+    font-family: "Chakra Petch", sans-serif;
+    flex-wrap: nowrap;
+    font-weight: bold;
+    color: aqua;
+    position: sticky;
+    bottom: 0;
+}
+
+/* Styling for Footer Component, sets margins on text content*/
+.footerWrapper h3 {
+    margin-left: 7px;
+    text-align: center;
+}
+
+/* Styling for Footer Component, sets flexbox options for images*/
+.socials {
+    display: flex;
+    justify-content: space-between
+}
+
+/* Styling for Footer Component, sets margins for images*/
+.socials img {
+    margin-right: 20px;
+}
+
+/* Styling for Footer Components, targeting images display type */
+.socials img {
+    display: block;
+    height: 5vh;
+}
+
+/* Styling for Footer Component, will only affect when hovering over images*/
+.socials img:hover {
+    cursor: pointer;
+}
+
+#header {
+    text-align: center;
+    background-color: hsl(216, 50%, 16%);
+    color: aqua;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Styling for Hero Container within the projects page */
+
+.projectsHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: hsl(216, 50%, 16%);
+    color: white;
+    font-weight: 900;
+    color: aqua;
+} 
+
+/* Styling for Project Component*/
+.projectsContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    background-color: hsl(216, 50%, 16%);
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Styling for Project Component*/
+.project1, .project2, .project3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-shrink: initial;
+    width: 90vw;
+    height:100vh;
+    background-color: hsl(217, 54%, 11%);
+    border-radius: 15px;
+    margin-bottom: 15px;
+    line-height: 1.3
+}
+
+/* Styling for Project Component, targets H1 tags*/
+.project1 h1, .project2 h1, .project3 h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: aqua;
+}
+
+/* Styling for Project Component, targets H2 Tags*/
+.project1 h3, .project2 h3, .project3 h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 13px;
+}
+
+/* Styling for Project Component, targets project 1 imgs*/
+.project1 img {
+    max-width: 80%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    filter: drop-shadow( -10px -7px 13px aqua);
+}
+
+/* Styling for Project Component, targets project 2 imgs*/
+.project2 img {
+    object-fit: cover;
+    max-width: 80%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    filter: drop-shadow( -10px -7px 13px aqua);
+}
+
+/* Styling for Project Component, targets project 3 imgs*/
+.project3 img {
+    object-fit: cover;
+    max-width: 92.5%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    filter: drop-shadow( -10px -6px 7px aqua);
+}
+
+/* Styling for Hero Container within the about me page*/
+.aboutMeHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    background-color: hsl(216, 50%, 16%);
+    color: white;
+}
+
+/* Styling for Hero Container and its images*/
+.aboutMeHeader img {
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    filter: drop-shadow( -10px -7px 9px aqua);
+}
+
+/* Styling for Hero Container */
+.aboutMeSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+    background-image: url(/docs/backgroundAboutMe.avif);
+    background-size: cover;
+    color: aqua;
+    font-weight:900;
+}
+
+/* Styling for Hero Container and its resume download link*/
+.aboutMeSection a {
+    text-decoration: none;
+    color: aqua;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 1%;
+    border: 3px solid aqua;
+    transition: 0.3s;
+}
+
+/* Styling for Hero Container, hover effects when over the resume download link*/
+.aboutMeSection a:hover {
+    transform: scale(1.2);
+    color: white;
+    border-color: white;
+}
+
+/* Styling for My Skills Component*/
+.mySkillsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    background-color: hsl(216, 50%, 16%);
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Styling for My Skills Component, will target the images*/
+.mySkillsContainer img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+/* Styling for My Skills Component*/
+.mySkills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    background-color: hsl(217, 54%, 11%);
+    border-radius: 20px;
+    font-size: 1em;
+    margin-top: 20px;
+    line-height: 2;
+    color:aqua;
+}
+
+/* Styling for My Skills Component, will target the <p> tags*/
+.mySkills p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+/* Styling for My Interests Component*/
+.myInterests {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    background-color: hsl(217, 54%, 11%);
+    border-radius: 20px;
+    font-size: 1em;
+    margin-top: 20px;
+    line-height: 2;
+    color:aqua
+}
+
+/* Styling for My Interets Component, will target the <p> tags*/
+.myInterests p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+/* Styling for My Journey Component*/
+.aboutMeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* Styling for My Journey Component*/
+#journeyHeader {
+    text-align: center;
+    background-color: hsl(216, 50%, 16%);
+    color: aqua;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Styling for My Journey Component, targets the nested flexbox <div>*/
+.thePast, .thePresent, .theFuture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 80vh;
+    background-color: hsl(217, 54%, 11%);
+    border-radius: 15px;
+    margin-bottom: 15px;
+    line-height: 2;
+}
+
+/* Styling for My Journey Component, targets the nested flexbox <div <h1> tags>*/
+.thePast h1, .thePresent h1, .theFuture h1 {
+    color: aqua;
+    margin-bottom: 10px;
+}
+
+/* Styling for My Journey Component, targets the nested flexbox <div <p> tags>*/
+.thePast p, .thePresent p, .theFuture p{ 
+    font-size: 0.9em;
+    color: white;
+}
+
+/* Styling for My Journey Component, targets the imgs within the component, will not display
+on smaller screen sizes*/
+.aboutMeImages {
+    display: none;
+}
+
+/* Styling for Contact Me Component, sets flexbox properties*/
+.contactMeWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    background-color: hsl(216, 50%, 16%);
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Styling for Contact Me Component*/
+.contactMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    background-color: hsl(217, 54%, 11%);
+    border-radius: 20px;
+    font-size: 1em;
+    line-height: 2;
+}
+
+/* Styling for Contact Me Component, targets text properties within this component*/
+#contactHeader {
+    text-align: center;
+    background-color: hsl(216, 50%, 16%);
+    color: aqua;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+/* Styling for Contact Me Component, targets <h1> styling*/
+.contactMe h1 {
+    color: aqua;
+    margin-top: 10px;
+    
+}
+
+/* Styling for Contact Me Component, targets <h4> styling*/
+.contactMe h4 {
+    color: white;
+}
+
+/* Styling for Contact Me Component, targets margins within #phoneNumber*/
+#phoneNumber {
+    margin-bottom: 10px;
+}
+
+
+.blogHeader {
+    text-align: center;
+    color: aqua;
+    width: 100vw;
+    height: 10vh;
+    margin-top: 10px;
+}
+
+/* Styling for Blog List Component*/
+.blogContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: Aqua;
+}
+
+/* Styling for Blog List Component, targets the list properties*/
+.blogPosts li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 75vw;
+    height: 30vh;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: aqua;
+    background-color:hsl(217, 54%, 11%);
+    font-weight: 900;
+    border-radius: 20%;
+    background-image: url("https://picsum.photos/250");
+    background-size: cover;
+    border: 2px solid aqua;
+    filter: drop-shadow( -10px -7px 9px aqua);
+}
+
+/* Styling for Blog List Component, targets the <a> properties*/
+.blogPosts a {
+    text-decoration: none;
+    color: Aqua;
+    transition: .3s;
+    border: 1px solid aqua;
+    padding: 2%;
+}
+
+/* Styling for Blog List Component, targets the <a> properties, when it is being
+hovered over by the user*/
+.blogPosts a:hover {
+    transform: scale(1.2);
+    color: white;
+    border-color: white;
+}
+
+/* Styling for Blog List Component, targets the <img> properties, will not display at small 
+screen sizes*/
+.blogImages{
+    display: none;
+}
+
+/* Styling for Blog Post Navbar Component*/
+.blogNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: hsl(217, 54%, 11%, 50%);
+    color: hsl(178, 100%, 50%);
+    width: 100vw;
+    height: 10vh;
+    font-family: "Chakra Petch", sans-serif;
+    flex-wrap: nowrap;
+    font-weight: bold;
+    position: sticky;
+
+}
+
+/* Styling for Blog Post Navbar Component, targets the <ul> properties*/
+.blogNav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+/* Styling for Blog Post Navbar Component, targets the <li> properties*/
+.blogNav ul li{
+    display: inline-block;
+    padding: 10px;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for Blog Post Navbar Component, targets the <a> properties*/
+.blogNav ul a{
+    display: inline-block;
+    padding: 10px;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    color: aqua;
+}
+
+/* Styling for Blog Post Navbar Component, targets the <ul> property*/
+.blogNav ul a:hover {
+    transform: scale(1.2);
+    color: white;
+}
+
+
+/* Styling for Blog Published Component*/
+.blogPublishedContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    margin-bottom: 10px;
+    margin-top: 10p;
+}
+
+/* Styling for Blog Published Component, targets all images on the page*/
+.imgContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 75vw;
+    height: 20vh;
+    color: Aqua;
+    background-color: white;
+    margin-top: 10px;
+}
+
+/* Styling for Blog Published Component, targets all images on the page*/
+.imgContainer img {
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+    border: 2px solid aqua;
+    filter: drop-shadow( -10px -7px 9px aqua);
+}
+
+/* Styling for Blog Published Component, targets all text content on the page*/
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 75vw;
+    color: Aqua;
+    background-color: hsl(217, 54%, 11%);
+    line-height:2;
+    border-radius:20px;
+
+}
+
+
+/* MEDIA BREAKPOINTS, STYLING WILL DIFFER DEPENDING ON SCREEN SIZE. */
+@media screen and (max-width: 749px) {
+    .navWrapper h1 {
+        display: none;
+    }
+
+    .navWrapper {
+        justify-content: center;
+    }
+
+    .navWrapper img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 439px) {
+   .navWrapper ul li a  {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (min-width:749px) {
+    .heroWrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100vw;
+        height: 80vh;
+    }
+
+    .mainContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 50vw;
+        height: 80vh;
+    }
+
+     .profileImage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 50vw;
+        height: 80vh;
+     }
+
+    #profilePic {
+        display: None
+    }
+
+    #profilePic1 {
+        width: 75%;
+        border-radius: 50%;
+        border: solid 5px aqua;
+        filter: drop-shadow( -10px -7px 9px aqua);
+    }    
+}
+
+@media screen and (min-width: 1200px) {
+    .projectsContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        width: 100vw;
+        height: 80vh;
+        background-color: hsl(216, 50%, 16%);
+        color: white;
+        font-size: 0.75em;
+    }
+    
+    .project1, .project2, .project3 {
+        width: 30vw;
+        height: 70vh;
+        background-color: hsl(217, 54%, 11%);
+        border-radius: 10%;
+        line-height: 1.6;
+    }
+
+    .imgContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 75vw;
+        height: 43vh;
+        color: Aqua;
+        background-color: white;
+        
+    }
+}
+
+@media screen and (min-width: 600px) {
+        .aboutMeContainer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 100vw;
+            background-color: hsl(216, 50%, 16%);
+            color: white;
+            font-size: 1.25em;
+        }
+
+        .wideScreen {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+            width: 100vw;
+        }
+
+
+        .thePast, .thePresent, .theFuture {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 45vw;
+            background-color: hsl(217, 54%, 11%);
+            border-radius: 15px;
+            margin-bottom: 15px;
+            line-height: 2;
+        }
+
+        .aboutMeImages {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 40vw;
+            background-color: hsl(216, 50%, 16%);
+            color: white;
+            font-size: 1.25em;
+        }
+
+        .aboutMeImages #law {
+            max-width: 80%;
+            max-height: 80%;
+            border: 5px solid aqua;
+            filter: drop-shadow( -10px -7px 9px aqua);
+        }
+
+        .aboutMeImages #coderAcademy {
+            max-width: 80%;
+            max-height: 80%;
+            border: 5px solid aqua;
+            filter: drop-shadow( 10px 7px 9px aqua);
+        }
+
+        .aboutMeImages #fullStack {
+            max-width: 100%;
+            height: 50%;
+            border: 5px solid aqua;
+            filter: drop-shadow( -10px -7px 9px aqua);
+
+        }
+
+        .imgContainer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 75vw;
+            height: 35vh;
+            color: Aqua;
+            background-color: white;
+            
+        }
+    }
+
+    @media screen and (min-width: 1000px) {
+        .blogContainer {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            text-align: center;
+            width: 100vw;
+            background-color: hsl(216, 50%, 16%);
+            color: white;
+            font-size: 1.25em;
+        }
+
+        .blogPosts {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-align: center;
+            width: 50vw;
+            height: 150vh;
+            background-image: hsl(217, 54%, 11%);
+        }
+
+
+        .blogPosts li {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 50vw;
+            height: 30vh;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            margin-left: 15px;
+            color: aqua;
+            background-color:hsl(217, 54%, 11%);
+            font-weight: 900;
+            border-radius: 20%;
+            background-image: none;
+        }
+
+        .blogImages {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 50vw;
+            height: 150vh;
+            background-image: hsl(217, 54%, 11%);
+        }
+
+        .blogImgs{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+            width: 50vw;
+            height: 150vh;
+            background-image: hsl(217, 54%, 11%);
+        }
+
+        .blogImages img {
+            filter: drop-shadow( -10px -7px 9px aqua);
+            max-width: 100%;
+            max-height: 90%;
+            border: 4px solid aqua;
+        }
+
+        .imgContainer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 75vw;
+            height: 45vh;
+            color: Aqua;
+            background-color: white;
+        }
+    }
+
+    @media screen and (min-width: 1400px) {
+        .imgContainer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 75vw;
+            height: 50vh;
+            color: Aqua;
+            background-color: white;
+        }
+    }
+    
+    @media  screen and (min-width: 0px) and (max-width: 675px) {
+        .blogNav{
+        display: none;
+        }
+    }
